@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFF23F54D0A42363D913C56E2828CC4 /* TensorSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF986DA104085BA57AB3D2E30331A5A3 /* TensorSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21D25179A32B08588465835472CF1F73 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21559F6C49E72769A2D19675569FC30 /* Operators.swift */; };
+		374E248F5AFD569404F4A76658AA8C48 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE96F3DAA0AF567CDABE288F95DA34 /* Tensor.swift */; };
+		421BF1389C2C7EA815C30C7BE8740522 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451EA556F6FA1784C3950D7E5F307539 /* Shape.swift */; };
+		4276EE45A0F8F93A163B12EC122CC7B1 /* TensorMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DA585C0ACBEE9EA1D4052092F0A4D2 /* TensorMath.swift */; };
+		7554FA6D95F7BE4A8B321DC722BECFD6 /* TensorNN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72454227215B1D88777216AB3B739200 /* TensorNN.swift */; };
+		AB5F2EFBBE5334245F5A48263F46AE4A /* TensorSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B169A608D76FCB270674AAA1F4B08149 /* TensorSwift-dummy.m */; };
+		B21FCD000BD4AF23E6029B8031E552CB /* Pods-WhosFace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1BECE1335CF95D8F40DA9DBAB99F60 /* Pods-WhosFace-dummy.m */; };
+		C02CD9F94878FD3DDB8B50CF4FC84B21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D198A10F6BE674A497C5F9B015A1CFB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E6830799C3F1D2D28DF55C7C04E018C0 /* Pods-WhosFace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 099BBFA4C12FCB783C5F12AED547B5C8 /* Pods-WhosFace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56E8A667998FF7F95E74A03BB3C6F43 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF32DB14704128331730C8D94F63C73 /* Dimension.swift */; };
+		FF5093A63A004C296369FECA5F536095 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F96EC7BA55037ADC335FFAC3559A35 /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B632200D0AC06B9DBA15F93807735FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 103842AFD0D5F25895923A90E8BC5793;
+			remoteInfo = TensorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062FEF1EE0B3B1610AB337362F045953 /* Pods-WhosFace-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhosFace-acknowledgements.markdown"; sourceTree = "<group>"; };
+		099BBFA4C12FCB783C5F12AED547B5C8 /* Pods-WhosFace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhosFace-umbrella.h"; sourceTree = "<group>"; };
+		2BF32DB14704128331730C8D94F63C73 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Sources/Dimension.swift; sourceTree = "<group>"; };
+		2DFE96F3DAA0AF567CDABE288F95DA34 /* Tensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tensor.swift; path = Sources/Tensor.swift; sourceTree = "<group>"; };
+		451EA556F6FA1784C3950D7E5F307539 /* Shape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = Sources/Shape.swift; sourceTree = "<group>"; };
+		499A44C2B6C3F557D22D89558D95E239 /* TensorSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorSwift-prefix.pch"; sourceTree = "<group>"; };
+		4BBEA407F180B15D1DD617D38A533AAD /* TensorSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorSwift.framework; path = TensorSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1BECE1335CF95D8F40DA9DBAB99F60 /* Pods-WhosFace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhosFace-dummy.m"; sourceTree = "<group>"; };
+		5251A6B110AAE0B28F778C28EEED6C7C /* Pods-WhosFace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhosFace.debug.xcconfig"; sourceTree = "<group>"; };
+		651BD2727849E0217583AE49C6690844 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A140BC87EADA0E03AB7E273ABDDD552 /* TensorSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorSwift.xcconfig; sourceTree = "<group>"; };
+		6A1D51717524E7685DA22F3D44F883B2 /* Pods-WhosFace-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhosFace-resources.sh"; sourceTree = "<group>"; };
+		7211B363639B1F4622628BAC474A597A /* TensorSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TensorSwift.modulemap; sourceTree = "<group>"; };
+		72454227215B1D88777216AB3B739200 /* TensorNN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorNN.swift; path = Sources/TensorNN.swift; sourceTree = "<group>"; };
+		7ECCD7898457779BE5405D31E2DC3100 /* Pods-WhosFace-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhosFace-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F8B188E4206A6157A9B1DD90AB5C7E7 /* Pods-WhosFace-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhosFace-frameworks.sh"; sourceTree = "<group>"; };
+		88F96EC7BA55037ADC335FFAC3559A35 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		8DB605969AE49E1B20A5C669597800C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DA585C0ACBEE9EA1D4052092F0A4D2 /* TensorMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TensorMath.swift; path = Sources/TensorMath.swift; sourceTree = "<group>"; };
+		B169A608D76FCB270674AAA1F4B08149 /* TensorSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TensorSwift-dummy.m"; sourceTree = "<group>"; };
+		CCDDD32025856D2E4816B398F2F57DB3 /* Pods-WhosFace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhosFace.release.xcconfig"; sourceTree = "<group>"; };
+		D178891F905CD3AB7995E2FB076F6856 /* Pods_WhosFace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhosFace.framework; path = "Pods-WhosFace.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE39D019D1C8C4FF27BD0CC73337598B /* Pods-WhosFace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WhosFace.modulemap"; sourceTree = "<group>"; };
+		DF986DA104085BA57AB3D2E30331A5A3 /* TensorSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorSwift-umbrella.h"; sourceTree = "<group>"; };
+		E21559F6C49E72769A2D19675569FC30 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		619A846D0ECDA7984CC3F228DFE80EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D198A10F6BE674A497C5F9B015A1CFB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F819A92E03EBA2B6556ADB46314CB9A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02CD9F94878FD3DDB8B50CF4FC84B21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29EBF30CB8D21E882659EA4E312EB05E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62BE04F812D768585707887E20B26D68 /* Pods-WhosFace */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4F74AB6EB8B2A6D31C24CC56E3E5E683 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75E8C3110D032E347C261F2C7BEC0F8A /* TensorSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62BE04F812D768585707887E20B26D68 /* Pods-WhosFace */ = {
+			isa = PBXGroup;
+			children = (
+				8DB605969AE49E1B20A5C669597800C5 /* Info.plist */,
+				DE39D019D1C8C4FF27BD0CC73337598B /* Pods-WhosFace.modulemap */,
+				062FEF1EE0B3B1610AB337362F045953 /* Pods-WhosFace-acknowledgements.markdown */,
+				7ECCD7898457779BE5405D31E2DC3100 /* Pods-WhosFace-acknowledgements.plist */,
+				4E1BECE1335CF95D8F40DA9DBAB99F60 /* Pods-WhosFace-dummy.m */,
+				7F8B188E4206A6157A9B1DD90AB5C7E7 /* Pods-WhosFace-frameworks.sh */,
+				6A1D51717524E7685DA22F3D44F883B2 /* Pods-WhosFace-resources.sh */,
+				099BBFA4C12FCB783C5F12AED547B5C8 /* Pods-WhosFace-umbrella.h */,
+				5251A6B110AAE0B28F778C28EEED6C7C /* Pods-WhosFace.debug.xcconfig */,
+				CCDDD32025856D2E4816B398F2F57DB3 /* Pods-WhosFace.release.xcconfig */,
+			);
+			name = "Pods-WhosFace";
+			path = "Target Support Files/Pods-WhosFace";
+			sourceTree = "<group>";
+		};
+		75E8C3110D032E347C261F2C7BEC0F8A /* TensorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2BF32DB14704128331730C8D94F63C73 /* Dimension.swift */,
+				E21559F6C49E72769A2D19675569FC30 /* Operators.swift */,
+				451EA556F6FA1784C3950D7E5F307539 /* Shape.swift */,
+				2DFE96F3DAA0AF567CDABE288F95DA34 /* Tensor.swift */,
+				94DA585C0ACBEE9EA1D4052092F0A4D2 /* TensorMath.swift */,
+				72454227215B1D88777216AB3B739200 /* TensorNN.swift */,
+				88F96EC7BA55037ADC335FFAC3559A35 /* Utils.swift */,
+				C298196E702EA6C19070B52DF81EB312 /* Support Files */,
+			);
+			name = TensorSwift;
+			path = TensorSwift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F74AB6EB8B2A6D31C24CC56E3E5E683 /* Pods */,
+				A628B7866CAEAF36B2E90139BA623386 /* Products */,
+				29EBF30CB8D21E882659EA4E312EB05E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A628B7866CAEAF36B2E90139BA623386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D178891F905CD3AB7995E2FB076F6856 /* Pods_WhosFace.framework */,
+				4BBEA407F180B15D1DD617D38A533AAD /* TensorSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C298196E702EA6C19070B52DF81EB312 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				651BD2727849E0217583AE49C6690844 /* Info.plist */,
+				7211B363639B1F4622628BAC474A597A /* TensorSwift.modulemap */,
+				6A140BC87EADA0E03AB7E273ABDDD552 /* TensorSwift.xcconfig */,
+				B169A608D76FCB270674AAA1F4B08149 /* TensorSwift-dummy.m */,
+				499A44C2B6C3F557D22D89558D95E239 /* TensorSwift-prefix.pch */,
+				DF986DA104085BA57AB3D2E30331A5A3 /* TensorSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TensorSwift";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000A5C36902CFCF3A6C60CCE6A1366C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFF23F54D0A42363D913C56E2828CC4 /* TensorSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B48F4D3CAC90092573DC9549B0CCE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6830799C3F1D2D28DF55C7C04E018C0 /* Pods-WhosFace-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		103842AFD0D5F25895923A90E8BC5793 /* TensorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911715F742DE4EDDCEF1BE5797358488 /* Build configuration list for PBXNativeTarget "TensorSwift" */;
+			buildPhases = (
+				53E0A7989017A63B4F5A1D9BE75EFBC5 /* Sources */,
+				619A846D0ECDA7984CC3F228DFE80EDB /* Frameworks */,
+				000A5C36902CFCF3A6C60CCE6A1366C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TensorSwift;
+			productName = TensorSwift;
+			productReference = 4BBEA407F180B15D1DD617D38A533AAD /* TensorSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B527F8E6B5D5BFAC03CB3EB65E012F99 /* Pods-WhosFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AF21B90082281C1D92F6FAA17B91BC /* Build configuration list for PBXNativeTarget "Pods-WhosFace" */;
+			buildPhases = (
+				2A328CAACB65906BD689AE170C824360 /* Sources */,
+				F819A92E03EBA2B6556ADB46314CB9A3 /* Frameworks */,
+				76B48F4D3CAC90092573DC9549B0CCE1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96AB1C16434FEC8D26710FBE7C181851 /* PBXTargetDependency */,
+			);
+			name = "Pods-WhosFace";
+			productName = "Pods-WhosFace";
+			productReference = D178891F905CD3AB7995E2FB076F6856 /* Pods_WhosFace.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A628B7866CAEAF36B2E90139BA623386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B527F8E6B5D5BFAC03CB3EB65E012F99 /* Pods-WhosFace */,
+				103842AFD0D5F25895923A90E8BC5793 /* TensorSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A328CAACB65906BD689AE170C824360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21FCD000BD4AF23E6029B8031E552CB /* Pods-WhosFace-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E0A7989017A63B4F5A1D9BE75EFBC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56E8A667998FF7F95E74A03BB3C6F43 /* Dimension.swift in Sources */,
+				21D25179A32B08588465835472CF1F73 /* Operators.swift in Sources */,
+				421BF1389C2C7EA815C30C7BE8740522 /* Shape.swift in Sources */,
+				374E248F5AFD569404F4A76658AA8C48 /* Tensor.swift in Sources */,
+				4276EE45A0F8F93A163B12EC122CC7B1 /* TensorMath.swift in Sources */,
+				7554FA6D95F7BE4A8B321DC722BECFD6 /* TensorNN.swift in Sources */,
+				AB5F2EFBBE5334245F5A48263F46AE4A /* TensorSwift-dummy.m in Sources */,
+				FF5093A63A004C296369FECA5F536095 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96AB1C16434FEC8D26710FBE7C181851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorSwift;
+			target = 103842AFD0D5F25895923A90E8BC5793 /* TensorSwift */;
+			targetProxy = 2B632200D0AC06B9DBA15F93807735FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3928BB5DE03E6ACCEEABCC286D7412E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A140BC87EADA0E03AB7E273ABDDD552 /* TensorSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TensorSwift/TensorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TensorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TensorSwift/TensorSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TensorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63F1B81220EDE733C3D4B21C2518EBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5251A6B110AAE0B28F778C28EEED6C7C /* Pods-WhosFace.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WhosFace/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhosFace/Pods-WhosFace.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WhosFace;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B5FC795136F3370ED0F8734CADB899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A140BC87EADA0E03AB7E273ABDDD552 /* TensorSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TensorSwift/TensorSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TensorSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TensorSwift/TensorSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TensorSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C02E06CC3D8359428C0C2F07C5F72DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDDD32025856D2E4816B398F2F57DB3 /* Pods-WhosFace.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WhosFace/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhosFace/Pods-WhosFace.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WhosFace;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911715F742DE4EDDCEF1BE5797358488 /* Build configuration list for PBXNativeTarget "TensorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B5FC795136F3370ED0F8734CADB899 /* Debug */,
+				3928BB5DE03E6ACCEEABCC286D7412E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AF21B90082281C1D92F6FAA17B91BC /* Build configuration list for PBXNativeTarget "Pods-WhosFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63F1B81220EDE733C3D4B21C2518EBC6 /* Debug */,
+				C02E06CC3D8359428C0C2F07C5F72DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
